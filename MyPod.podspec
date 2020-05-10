@@ -28,3 +28,5 @@ s.source_files = "MyPod/**/*.{swift}"
 #s.resources = "MyPod/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
 s.swift_version = "4.2"
+  
+end
