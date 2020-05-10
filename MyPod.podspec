@@ -3,10 +3,10 @@ Pod::Spec.new do |s|
 s.platform = :ios
 s.ios.deployment_target = '13.0'
 s.name = "MyPod"
-s.summary = "MyPod short summary"
+s.summary = "MyPod short summary with added TTGSnackbar Function"
 s.requires_arc = true
 
-s.version = "0.1.0"
+s.version = "0.2.0"
 
 s.license = { :type => "MIT", :file => "LICENSE" }
 
@@ -21,10 +21,12 @@ s.source = { :git => "https://github.com/TommyRchmt/MyPod.git",
              :tag => "#{s.version}" }
 
 s.framework = "UIKit"
-#s.dependency 'TTGSnackbar', '~> 1.10.2'
+s.dependency 'TTGSnackbar', '~> 1.10.2'
 
 s.source_files = "MyPod/**/*.{swift}"
 
 #s.resources = "MyPod/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
 s.swift_version = "4.2"
+
+end

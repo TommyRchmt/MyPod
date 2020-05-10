@@ -7,10 +7,13 @@
 //
 
 import Foundation
+import TTGSnackbar
 
 public class MyPod {
     public static func printSomething() -> String {
         let myWord = "String berhasil di print."
+        let snackBar = TTGSnackbar(message: myWord, duration: .long)
+        snackBar.show()
         return myWord
     }
 }
